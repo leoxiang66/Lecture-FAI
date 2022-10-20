@@ -1,4 +1,6 @@
+# Lecture Notes of Course "Fundamentals of Artificial Intelligence (IN2406)"
 
+<!-- 
 
 # `AIMA Code Installation Instructions` [![Build Status](https://travis-ci.org/aimacode/aima-python.svg?branch=master)](https://travis-ci.org/aimacode/aima-python) [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/aimacode/aima-python)
 
@@ -196,3 +198,4 @@ You can find more information [here](https://stackoverflow.com/questions/5425433
 Often, mac-related issues may arise because you have not installed the latest update. Simply update your OS and/or your applications, and continue with the AIMA installation instructions.
 
 If your problem is still not solved, don't hesitate to notify us of the problem on the Moodle forums.
+ -->
