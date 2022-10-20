@@ -15,3 +15,5 @@ pytest-cov==2.10.1
 qpsolvers==1.4
 scipy==1.5.2
 sortedcontainers==2.2.2
+mkdocs==1.4.1
+mkdocs-material==8.5.6
