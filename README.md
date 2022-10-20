@@ -1,5 +1,7 @@
 # Lecture Notes of Course "Fundamentals of Artificial Intelligence (IN2406)"
 
+- [notes](https://leoxiang66.github.io/Lecture-FAI/)
+
 <!-- 
 
 # `AIMA Code Installation Instructions` [![Build Status](https://travis-ci.org/aimacode/aima-python.svg?branch=master)](https://travis-ci.org/aimacode/aima-python) [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/aimacode/aima-python)
