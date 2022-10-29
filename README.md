@@ -1,6 +1,13 @@
 # Lecture Notes of Course "Fundamentals of Artificial Intelligence (IN2406)"
 
 - [notes](https://leoxiang66.github.io/Lecture-FAI/)
+- lecture exam organization
+
+Hi Malek,
+thank you for your questions. As discussed in the introductory lectures, there will be exercises that we will discuss each Friday, and on the other hand programming exercises. The first ones are relevant for the exam, thematically speaking (in other words, the exam questions will be quite close to the ones in the exercises). On the other hand, the programming exercises are not strictly speaking relevant for the exam, i.e., there will be no coding during the exam, but they may give you an understanding of the underlying algorithms.
+Only the programming exercises give you bonus points, i.e., you get +0.3 for the exam if you solve 3 points worth of programming exercises.
+
+The exact plan for the programming exercises will be announced in due time (it's 3 programming exercises, +1 big one in parallel, so I'm sure you can do the math how they will more or less be distributed over the semester ;) ).
 
 <!-- 
 
