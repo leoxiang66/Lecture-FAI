@@ -572,14 +572,27 @@
     Proof by Resolution
   </a>
   
+    <nav class="md-nav" aria-label="Proof by Resolution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#conjunctive-normal-form" class="md-nav__link">
+    Conjunctive Normal Form
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
           <li class="md-nav__item">
   <a href="#proof-of-horn-clauses" class="md-nav__link">
-    Proof of Horn Clauses
+    Proof of Horn Clauses 自动推导
   </a>
   
-    <nav class="md-nav" aria-label="Proof of Horn Clauses">
+    <nav class="md-nav" aria-label="Proof of Horn Clauses 自动推导">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -776,14 +789,27 @@
     Proof by Resolution
   </a>
   
+    <nav class="md-nav" aria-label="Proof by Resolution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#conjunctive-normal-form" class="md-nav__link">
+    Conjunctive Normal Form
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
           <li class="md-nav__item">
   <a href="#proof-of-horn-clauses" class="md-nav__link">
-    Proof of Horn Clauses
+    Proof of Horn Clauses 自动推导
   </a>
   
-    <nav class="md-nav" aria-label="Proof of Horn Clauses">
+    <nav class="md-nav" aria-label="Proof of Horn Clauses 自动推导">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -850,6 +876,7 @@
 <li>在找到一堆金子之前，你有一支箭射他。</li>
 </ul>
 </blockquote>
+<p><mark><strong>[x,y]表示第x列第y行</strong></mark></p>
 <p><img alt="" src="https://i.imgur.com/AmzGUiE.png" /></p>
 <blockquote>
 <ul>
@@ -870,7 +897,7 @@
 <img alt="" src="https://i.imgur.com/wo5Khn2.png" />
 <img alt="" src="https://i.imgur.com/klwkRdD.png" />
 <img alt="" src="https://i.imgur.com/u6d9OxL.png" /></p>
-<div><iframe width="300" height="60" src="https://vocaroo.com/embed/1k19CWZjq4C0?autoplay=0" frameborder="0" allow="autoplay"></iframe><br><a href="https://voca.ro/1k19CWZjq4C0" title="Vocaroo Voice Recorder" target="_blank">View on Vocaroo &gt;&gt;</a></div>
+<div><iframe width="300" height="60" src="https://vocaroo.com/embed/1k19CWZjq4C0?autoplay=0" frameborder="0" allow="autoplay"></iframe><br><a href="https://voca.ro/1k19CWZjq4C0" title="Vocaroo Voice Recorder" target="_blank">View on Vocaroo >></a></div>
 <blockquote>
 <p>https://voca.ro/1k19CWZjq4C0</p>
 </blockquote>
@@ -880,7 +907,7 @@
 <blockquote>
 <ul>
 <li>a推b
-models: 可能出现的情况</li>
+  models: 可能出现的情况</li>
 </ul>
 </blockquote>
 <h3 id="logical-reasoning-in-the-wumpus-wolrd">logical reasoning in the Wumpus Wolrd</h3>
@@ -904,8 +931,11 @@ models: 可能出现的情况</li>
 <h3 id="introduction-to-theorem-proving">Introduction to Theorem Proving</h3>
 <p><img alt="" src="https://i.imgur.com/2TrDRgI.png" />
 <img alt="" src="https://i.imgur.com/aVi0SUh.png" />
-<img alt="" src="https://i.imgur.com/p6OAcyC.png" />
-<img alt="" src="https://i.imgur.com/XQHXSXu.png" />
+<img alt="" src="https://i.imgur.com/p6OAcyC.png" /></p>
+<blockquote>
+<p>这个“分号”的意思是推， 和 ==&gt; 差不多</p>
+</blockquote>
+<p><img alt="" src="https://i.imgur.com/XQHXSXu.png" />
 <img alt="" src="https://i.imgur.com/7xpbDnR.png" /></p>
 <h4 id="ww-examples">WW examples</h4>
 <p><img alt="" src="https://i.imgur.com/mSMqnUa.png" /></p>
@@ -915,9 +945,24 @@ models: 可能出现的情况</li>
 <p><img alt="" src="https://i.imgur.com/rlOkynX.png" />
 <img alt="" src="https://i.imgur.com/rL4yKEg.png" />
 <img alt="" src="https://i.imgur.com/bXYYjv2.png" />
-<img alt="" src="https://i.imgur.com/nVcJOyy.png" />
-<img alt="" src="https://i.imgur.com/ip2DeWf.png" /></p>
+<img alt="" src="https://i.imgur.com/nVcJOyy.png" /></p>
+<p><strong>Unit resolution rule:</strong></p>
+<p>(<span class="arithmatex">\(I_1 \vee \ldots l_{i} \ldots \vee I_k\)</span>) <span class="arithmatex">\(\land\)</span> <span class="arithmatex">\(m\)</span>, where <span class="arithmatex">\(l_i \equiv \neg m\)</span>,</p>
+<p>then: <span class="arithmatex">\(I_1 \vee \ldots \vee I_{i-1} \vee I_{i+1} \vee \ldots \vee I_k\)</span></p>
+<p><strong>Full resolution rule</strong>:</p>
+<p><span class="arithmatex">\(\left(I_1 \vee \ldots l_i \ldots \vee I_k\right) \wedge (m_1 \vee \ldots m_{j} \vee \vee m_n)\)</span>, where <span class="arithmatex">\(l_i \equiv \neg m_{j}\)</span> then: <span class="arithmatex">\(I_1 \vee \ldots \vee I_{i-1} \vee I_{i+1} \vee \ldots \vee I_k\)</span></p>
+<p>then: <span class="arithmatex">\(I_1 \vee \ldots \vee I_{i-1} \vee I_{i+1} \vee \ldots \vee I_k \vee m_1 \vee \ldots \vee m_{j-1} \vee m_{j+1} \vee \ldots \vee m_n\)</span></p>
+<blockquote>
+<p>分析：</p>
+<p>如果上面式子为false, 则一定能推下面， 所以只考虑上面式子为true的情况</p>
+<p>不妨设li = false, mj = True, 则上面式子想要成立， li... <span class="arithmatex">\(l_{i-1}\)</span>, <span class="arithmatex">\(l_{i+1}\)</span> ... lk 必须有一个成立， 这种情况下下面式子也成立</p>
+</blockquote>
+<p><img alt="" src="https://i.imgur.com/ip2DeWf.png" /></p>
+<h4 id="conjunctive-normal-form">Conjunctive Normal Form</h4>
 <p><img alt="" src="https://i.imgur.com/neHRXoW.png" /></p>
+<blockquote>
+<p>“非”在最里面， 然后是“或”， 最外面是“且”</p>
+</blockquote>
 <p><img alt="" src="https://i.imgur.com/67Hgb4N.png" /></p>
 <p><img alt="" src="https://i.imgur.com/9JngD4k.png" /></p>
 <p><img alt="" src="https://i.imgur.com/q8dtzw3.png" /></p>
@@ -925,10 +970,10 @@ models: 可能出现的情况</li>
 <p><img alt="" src="https://i.imgur.com/spcsIXh.png" /></p>
 <p><img alt="" src="https://i.imgur.com/KYp0MB4.png" /></p>
 <p><img alt="" src="https://i.imgur.com/lNmOYOv.png" /></p>
-<h3 id="proof-of-horn-clauses">Proof of Horn Clauses</h3>
+<h3 id="proof-of-horn-clauses">Proof of Horn Clauses 自动推导</h3>
 <p><img alt="" src="https://i.imgur.com/02jsDl5.png" /></p>
 <h4 id="and-or-graph">And-Or graph</h4>
-<p><img alt="" src="https://i.imgur.com/9OA1DQ7.png" /></p>
+<p><img alt="" src="https://i.imgur.com/9OA1DQ7.png" /> </p>
 <h4 id="forward-chaining">forward chaining</h4>
 <p><img alt="" src="https://i.imgur.com/BegCzm7.png" />
 <img alt="" src="https://i.imgur.com/tlltFeD.png" />
