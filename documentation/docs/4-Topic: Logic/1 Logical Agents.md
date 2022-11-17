@@ -106,6 +106,7 @@
 ![](https://i.imgur.com/nVcJOyy.png)
 
 
+
 **Unit resolution rule:**
 
 ($I_1 \vee \ldots l_{i} \ldots \vee I_k$) $\land$ $m$, where $l_i \equiv \neg m$,
@@ -133,7 +134,7 @@ then: $I_1 \vee \ldots \vee I_{i-1} \vee I_{i+1} \vee \ldots \vee I_k \vee m_1 \
 ![](https://i.imgur.com/ip2DeWf.png)
 
 
-
+<mark>CNFs are needed to perform resolution.</mark>
 
 
 #### Conjunctive Normal Form
