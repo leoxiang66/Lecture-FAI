@@ -211,3 +211,7 @@ then: $I_1 \vee \ldots \vee I_{i-1} \vee I_{i+1} \vee \ldots \vee I_k \vee m_1 \
 #### forward vs backward chaining
 
 ![](https://i.imgur.com/rwmb2sI.png)
+
+![](https://i.imgur.com/UPgKJGE.png)
+![](https://i.imgur.com/q5bojhw.png)
+![](https://i.imgur.com/lWYB8gz.png)
